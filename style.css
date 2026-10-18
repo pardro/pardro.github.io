@@ -33,3 +33,7 @@ html,body,.wrap,main,.site-header,.hero,.section,.site-footer,.project-art,.docu
 .site-header-main{min-height:54px}.career-heading{width:100%;border-bottom:1px solid #000;padding-bottom:10px;margin-bottom:20px}.career-summary,.career-points{margin-left:28px!important}
 @media(max-width:800px){.site-header-main{min-height:50px}}
 @media(max-width:560px){.site-header-main{min-height:48px}.career-heading{padding-bottom:9px;margin-bottom:18px}.career-summary,.career-points{margin-left:16px!important}}
+
+/* Project detail hierarchy. */
+.project-detail .project-organization{letter-spacing:0;text-transform:none}.project-detail .project-facts{grid-template-columns:1fr 1fr}.project-detail .section-content{margin-left:28px}.project-detail .section-content>:last-child{margin-bottom:0}
+@media(max-width:560px){.project-detail .section-content{margin-left:16px}.project-detail .project-facts{grid-template-columns:1fr}.project-detail .project-facts>div:last-child{grid-column:auto}}
