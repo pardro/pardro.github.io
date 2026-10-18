@@ -22,3 +22,9 @@ html,body{background:#fff}.hero h1 .name-label{display:flex;flex-wrap:wrap;align
 @media(max-width:560px){.career-list>.career-item{gap:13px}.career-heading h3{font-size:20px}.career-heading .position{font-size:15px}.career-heading{gap:5px 14px}.project h3 a{column-gap:13px}.project-company{font-size:14px}.art-flow{padding:25px 30px}.mini-flow{gap:8px}.mini-flow>div{padding:5px 10px}.mini-flow strong{font-size:12px}.mini-flow span{font-size:11px}}
 
 html,body,.wrap,main,.site-header,.hero,.section,.site-footer,.project-art,.document,.mini-flow>div,.architecture,.architecture>div{background-color:#ffffff}
+
+/* Compact masthead and linked project previews. */
+.site-header-main{min-height:84px}.hero{padding:62px 0 58px;align-items:center}.section h2,.detail h2{font-weight:750}.project-thumbnail{display:block;min-width:0}.project-thumbnail .project-art{transition:border-color .2s}.project-thumbnail:hover .project-art{border-color:var(--accent)}.project-title-link{display:inline-flex;align-items:baseline;gap:9px;max-width:100%}.project-title-text{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}.project-title-link .arrow{font-size:18px;font-weight:400;flex-shrink:0;margin-left:0}.project .stack{font-weight:400}.project p.summary{font-weight:400}.project h3 a{row-gap:6px}
+@media(min-width:1400px){.hero{padding:70px 0 64px}}
+@media(max-width:800px){.hero{padding:46px 0;gap:28px}.site-header-main{min-height:72px}}
+@media(max-width:560px){.hero{padding:36px 0 38px;gap:26px}.site-header-main{min-height:64px}.project-title-link{gap:7px}.project-title-link .arrow{font-size:16px}}
