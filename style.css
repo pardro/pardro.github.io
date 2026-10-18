@@ -30,6 +30,6 @@ html,body,.wrap,main,.site-header,.hero,.section,.site-footer,.project-art,.docu
 @media(max-width:560px){.hero{padding:36px 0 38px;gap:26px}.site-header-main{min-height:64px}.project-title-link{gap:7px}.project-title-link .arrow{font-size:16px}}
 
 /* Navigation height and career hierarchy. */
-.site-header-main{min-height:54px}.career-heading{width:min(100%,440px);border-bottom:2px solid #000;padding-bottom:10px;margin-bottom:20px}.career-summary,.career-points{margin-left:28px!important}
+.site-header-main{min-height:54px}.career-heading{width:100%;border-bottom:1px solid #000;padding-bottom:10px;margin-bottom:20px}.career-summary,.career-points{margin-left:28px!important}
 @media(max-width:800px){.site-header-main{min-height:50px}}
 @media(max-width:560px){.site-header-main{min-height:48px}.career-heading{padding-bottom:9px;margin-bottom:18px}.career-summary,.career-points{margin-left:16px!important}}
