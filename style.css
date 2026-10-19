@@ -62,3 +62,12 @@ html,body,.wrap,main,.site-header,.hero,.section,.site-footer,.project-art,.docu
 /* Shared borderless heading rows on detail pages. */
 .detail>section>h2{display:flex;align-items:center;min-height:46px;background:#f4f7f5;border:0;padding:7px 16px;margin:0 0 22px;font-size:23px;line-height:1.35;font-weight:750}
 @media(max-width:560px){.detail>section>h2{min-height:42px;padding:6px 12px;font-size:21px;margin-bottom:20px}}
+
+
+/* Tighter introduction spacing and slightly stronger name labels. */
+.portfolio-main>.hero{padding:34px 0 30px}
+.portfolio-main>.hero h1 .name-ko,.portfolio-main>.hero h1 .name-en{font-weight:600}
+.portfolio-main>.career-section{padding-top:30px}
+@media(min-width:1400px){.portfolio-main>.hero{padding:38px 0 34px}}
+@media(max-width:800px){.portfolio-main>.hero{padding:28px 0}.portfolio-main>.career-section{padding-top:26px}}
+@media(max-width:560px){.portfolio-main>.hero{padding:24px 0 26px}.portfolio-main>.career-section{padding-top:24px}}
