@@ -71,3 +71,11 @@ html,body,.wrap,main,.site-header,.hero,.section,.site-footer,.project-art,.docu
 @media(min-width:1400px){.portfolio-main>.hero{padding:38px 0 34px}}
 @media(max-width:800px){.portfolio-main>.hero{padding:28px 0}.portfolio-main>.career-section{padding-top:26px}}
 @media(max-width:560px){.portfolio-main>.hero{padding:24px 0 26px}.portfolio-main>.career-section{padding-top:24px}}
+
+/* Full portfolio PDF download. */
+.site-header-main nav .portfolio-download{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:5px 12px;border:1px solid var(--accent);border-radius:3px;color:var(--accent);font-size:13px;font-weight:600;line-height:1.5;white-space:nowrap;transition:background-color .2s,color .2s}
+.site-header-main nav .portfolio-download:hover{background:var(--accent);color:#fff}
+.portfolio-download svg{flex-shrink:0}
+@media(max-width:560px){.site-header-main nav .portfolio-download{gap:5px;padding:5px 8px;font-size:12px}}
+@media(max-width:380px){.site-header-main nav{gap:8px;font-size:11px}.site-header-main nav .portfolio-download{padding:5px 7px;font-size:11px;gap:4px}.portfolio-download svg{width:13px;height:13px}}
+@media print{.portfolio-download{display:none!important}}
